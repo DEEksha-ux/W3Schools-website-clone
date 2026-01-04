@@ -11,6 +11,7 @@
     display: flex;
     /*position: fixed;*/
     width: 100%;
+    background-color: #e7e9eb;
 }
 
 .nav-a-left{
@@ -141,6 +142,10 @@
     font-weight: 700;
 }
 
+.hover-link:hover{
+    color: #fff4a3;
+}
+
 .hero-upper-inp{
     margin: 30px 0px;
     display: flex;
@@ -151,12 +156,21 @@
     width: 400px;
     padding: 10px 10px 10px 25px;
     border-left: 40%;
-    color: gray;
+    color: rgb(94, 91, 91);
+    border-radius: 20px 0px 0px 20px;
+    border: none;
+}
+
+.hero-upper-inp input:focus{
+    border: none;
 }
 
 .hero-upper-inp button{
     height: 47px;
     width: 100px;
+    background-color: #04aa6d;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
 }
 
 /**hero lower**/
@@ -234,6 +248,49 @@
 
 .a4:hover{
     background-color: #faaab3;
+}
+
+
+/**hero lower second div**/
+.hero-lower2{
+    height: 453px;
+    width: 431px;
+    background-color: #e7e9eb;
+    padding: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-left: 50px;
+}
+
+.hero-lower2 h3{
+    margin: 10px 0px;
+    font-size: 24px;
+    font-weight: 540;
+}
+
+.html-ex{
+    height: 300px;
+    width: 400px;
+    background-color: white;
+    border-left: 5px solid #04aa6d;
+    font-size: 15px;
+    padding: 8px 12px;
+    margin: 16px 0px;
+    text-align: left;
+}
+
+.hero-lower2 button{
+    padding: 8px 16px;
+    color: white;
+    background-color: #04aa6d;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    width: 200px;
+    height: 43px;
+}
+
+.hero-lower2 button:hover{
+    background-color: #0c8d5e;
 }
 
 /**content upper**/
