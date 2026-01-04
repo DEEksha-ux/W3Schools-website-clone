@@ -297,6 +297,139 @@
 .content{
     background-color: #282a35;
     height: 1000px;
+    padding: 64px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-cards{
+    height: 264px;
+    width: 620px;
+    padding: 24px;
+    margin: 20px 30px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.big-cards h2{
+    font-size: 45px;
+    margin: 10px 0px;
+}
+
+.big-cards h5{
+    font-size: 18px;
+    margin: 10px 0px 40px 0px;
+    font-weight: 500;
+}
+
+.big-cards button{
+    font-size: 18px;
+    color: white;
+    width: 200px;
+    height: 43px;
+    padding: 8px 16px;
+    margin: 0px 104px 16px 104px;
+    background-color: #282a35;
+    border-radius: 20px;
+}
+
+.big-cards button:hover{
+    background-color: #101111;
+}
+
+/**content long cards**/
+.long-cards{
+    height: 137px;
+    width: 620px;
+    font-size: 18px;
+    padding: 36px 24px; 
+    text-align: center;
+    border-radius: 5px;
+}
+
+.lcard1{
+    background-color: #eab1b8;
+}
+
+.lcard2{
+    background-color: #eae098;
+}
+
+.lcard1:hover{
+    background-color: #f5bfc5;
+}
+
+.lcard2:hover{
+    background-color: #f1e9a5;
+}
+
+.long-cards h2{
+    margin: 10px 0px;
+}
+
+/**content small cards**/
+.slcard-div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 800px;
+    background-color: #282a35;
+    padding: 0px 0px;
+    
+}
+
+.small-cards{
+    height: 113px;
+    width: 265px;
+    text-align: center;
+    vertical-align: center;
+    padding: 24px;
+    font-size: 16px;
+    margin: 23px 35px;
+    border-radius: 5px;
+}
+
+.small-cards h2{
+    margin: 10px 0px;
+}
+
+.scard1{
+    background-color: #dfd9d8;
+}
+
+.scard2{
+    background-color: #c8dbd0;
+}
+
+.scard3{
+    background-color: #8bc3c4;
+}
+
+.scard4{
+    background-color: #eab1b8;
+}
+
+.scard5{
+    background-color: #eae098;
+}
+
+.scard6{
+    background-color: #dfd9d8;
+}
+
+.scard7{
+    background-color: #c8dbd0;
+}
+
+.scard8{
+    background-color: #8bc3c4;
 }
 
 /**content2**/
